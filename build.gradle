@@ -1,10 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     repositories {
-        maven {
-            allowInsecureProtocol = true
-            url 'http://maven.hellotalk8.com:8081/repository/hello-talk-android/'
-        }
+        mavenCenter()
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.3"
